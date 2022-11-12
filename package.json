@@ -1,0 +1,24 @@
+{
+  "name": "nas_be",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "tsc && node ./dst/server/api/index.js --max_old_space_size=16384 --max-new-space-size=16384",
+    "webdav": "tsc && node ./dst/server/webdav/index.js --max_old_space_size=16384 --max-new-space-size=16384"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "@types/Promise": "npm:@types/promise@^7.1.30",
+    "base64-js": "^1.5.1",
+    "formidable": "^2.0.1",
+    "http": "^0.0.1-security",
+    "install": "^0.13.0",
+    "npm": "^8.5.2",
+    "Promise": "npm:promise@^8.1.0",
+    "xml": "^1.0.1",
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "@types/formidable": "^2.0.4"
+  }
+}
