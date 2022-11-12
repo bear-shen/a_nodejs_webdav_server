@@ -1,6 +1,6 @@
 import { IncomingMessage, ServerResponse } from "http";
 import { Element, ElementCompact } from "xml-js";
-import * as fp from "../../lib/LocalFileProcessor";
+import * as fp from "../lib/LocalFileProcessor";
 
 import * as convert from 'xml-js';
 import { ReadStream } from "fs";
@@ -12,7 +12,7 @@ import { ReadStream } from "fs";
  * */
 
 import { Buffer } from "buffer";
-import ServerConfig from "../../ServerConfig";
+import ServerConfig from "../ServerConfig";
 import { getRelPath, getRequestBuffer, respCode } from "../Lib";
 
 export default async function (req: IncomingMessage, res: ServerResponse) {

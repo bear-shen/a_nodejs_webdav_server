@@ -22,9 +22,8 @@ export default {
     } as { [key: string]: Array<any> },
     //
     path: {
-        temp: `${os.tmpdir()}/tosho_tmp_${process.pid}`,
-        local: process.cwd() + '/../file',
-        api: '/file',
+        temp: `${os.tmpdir()}/tmp_${process.pid}`,
+        local: process.cwd() + '/file',
         webdav: '/webdav',
     },
 };

@@ -1,6 +1,6 @@
 import { IncomingMessage, ServerResponse } from "http";
-import * as fp from "../../lib/LocalFileProcessor";
-import ServerConfig from "../../ServerConfig";
+import * as fp from "../lib/LocalFileProcessor";
+import ServerConfig from "../ServerConfig";
 import { getRelPath, getRequestFile, respCode, setResponseFile } from '../Lib';
 
 export default async function (req: IncomingMessage, res: ServerResponse) {
