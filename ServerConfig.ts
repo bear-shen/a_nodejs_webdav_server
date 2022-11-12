@@ -1,9 +1,7 @@
 import os from 'os';
 
 export default {
-    // pathPrefix: '/api',
     port: {
-        api: 8090,
         webdav: 8095,
     },
     auth: {
