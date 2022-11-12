@@ -9,11 +9,11 @@
     "@types/node": "^18.11.9",
     "@types/Promise": "npm:@types/promise@^7.1.30",
     "base64-js": "^1.5.1",
-    "http": "^0.0.1-security",
-    "install": "^0.13.0",
     "npm": "^8.5.2",
     "Promise": "npm:promise@^8.1.0",
-    "xml": "^1.0.1",
     "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
   }
 }
