@@ -14,11 +14,12 @@ import put from "./processor/put";
 import mkcol from "./processor/mkcol";
 // import copy from "./processor/copy";
 import { IncomingMessage, ServerResponse } from 'http';
+import options from "./processor/options";
 
 const ref = {
     'GET': get,//@todo
     'MOVE': move,//@todo
-    // 'OPTIONS': options,//@todo
+    'OPTIONS': options,//@todo
     'PROPFIND': propfind,
     'PUT': put,//@todo
     'MKCOL': mkcol,//@todo
